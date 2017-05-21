@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* header styling */
+
+header {
+  margin: 0;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+}
+
+nav {
+  overflow: hidden;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.logo {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: seashell;
+  background-color: black;
+  display: block;
+  line-height: 1em;
+  padding: 1em;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+/* site styling */
+
+div {
+  display: block;
+}
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2, h3, h4, p {
+  line-height: 0.5em;
+  text-align: center;
+}
+
+.mission-text {
+  width: 1200px;
+  margin: auto;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+.steeping-text {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  padding: 70px 0 15px 0;
+}
+
+.tea {
+  height: 530px; 
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.tea-pics {
+  padding: 0 15px;
+  margin: 0;
+  display: block;
+}
+
+.locations-pic {
+  background-image: url(../images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: center;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+}
